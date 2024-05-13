@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="44"/>
+
+  <remote fetch="https://github.com/openembedded" name="oe"/>
+  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
+  <remote fetch="https://git.yoctoproject.org/meta-intel" name="intel"/>
+
+  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="scarthgap"/>
+  <project name="poky" path="sources/poky" remote="yocto" revision="scarthgap"/>
+  <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="scarthgap"/>
+  <project name="meta-intel" path="sources/meta-intel" remote="intel" revision="scarthgap"/>
+</manifest>
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
