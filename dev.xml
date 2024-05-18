@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <!-- Include all other Yocto meta layters with the certain commit number at the day of snapshot.
-    This guarantees these meta layers will remain the same for the development builds until
-    the snapshot is updated by the latest and a new version included here.
-  -->
-  <include name="yocto-snapshot_latest.xml" />
-<!--
-  <remote fetch="ssh://git@gitlab.com/wheelme-devops" name="wheelme" />
-  <default sync-j="44" />
-  -->
-
-  <!-- Wheelme release and dev metalayers. The dev meta layer has a higher priority and overwrites recipes from
-  the release metalayer.
-  <project name="meta-wheelme" path="sources/meta-wheelme" remote="wheelme" revision="master">
-    <linkfile src="scripts/wheelme-setenv.sh" dest="wheelme-setenv.sh" />
-  </project>
-  <project name="meta-wheelme-dev" path="sources/meta-wheelme-dev" remote="wheelme" revision="master" />
- -->
+	<include name="yocto-snapshot_latest.xml" />
+	
+	<remote fetch="ssh://git@github.com/a1miro" name="a1miro" />
+	<project name="meta-meteor" path="sources/meta-meteor" remote="a1miro" revision="master" />
 </manifest>
