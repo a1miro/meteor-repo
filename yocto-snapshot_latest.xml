@@ -14,12 +14,10 @@
 	  poky			scarthgap		scarthgap-5.0-36-g4b07a5316e
 	  meta-virtualization	scarthgap		N/A
 	  meta-intel		scarthgap		20.0-nanbield-4.3-103-gb0928506
-	  linux-intel-lts	6.6/linux		lts-v6.6.30-linux-240508T063812Z
   -->  
 
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="a72010b414ee3d73888ac9cb4e310e8f05e13aea"/>
   <project name="poky" path="sources/poky" remote="yocto" revision="4b07a5316ed4b858863dfdb7cab63859d46d1810"/>
   <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="1a547c0aa0d75c4143cbb66de6e653d51cdc8bda"/>
   <project name="meta-intel" path="sources/meta-intel" remote="yocto" revision="b0928506e8a0efeba61c3fd8055cd323f5ca110a"/>
-  <project name="linux-intel-lts" path="sources/work-shared/intel/linux-intel-lts" remote="intel" revision="7fa1cff55e56fa36009a67fb0ea6445e84928b34"/>
 </manifest>
