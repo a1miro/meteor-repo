@@ -4,5 +4,5 @@
 	
 	<remote fetch="ssh://git@github.com/a1miro" name="a1miro" />
 	<project name="meta-meteor" path="sources/meta-meteor" remote="a1miro" revision="master" />
-	<project name="car-benchmark" path="build/workspace/sources/car-benchmark" remote="a1miro" revision="master" />
+	<project name="matrixmul" path="build/workspace/sources/matrixmul" remote="a1miro" revision="master" />
 </manifest>
