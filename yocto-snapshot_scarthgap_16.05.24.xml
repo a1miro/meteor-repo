@@ -7,6 +7,7 @@
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/intel" name="intel"/>
   <remote fetch="https://github.com/OpenAMP" name="openamp"/>
+  <remote fetch="https://github.com/kraj" name="clang"/>
 
   <!-- Snapshot from 16/05/24 Yocto Scarthgap 5.0
 	  repo			branch			tag
@@ -23,4 +24,5 @@
   <project name="meta-virtualization" path="sources/meta-virtualization" remote="yocto" revision="1a547c0aa0d75c4143cbb66de6e653d51cdc8bda"/>
   <project name="meta-intel" path="sources/meta-intel" remote="yocto" revision="b0928506e8a0efeba61c3fd8055cd323f5ca110a"/>
   <project name="meta-openamp" path="sources/meta-openamp" remote="openamp" revision="0c8b6ce232d0937286fe6643fe3662e170b96a95"/>
+  <project name="meta-clang" path="sources/meta-clang" remote="clang" revision="scarthgap"/>
 </manifest>
